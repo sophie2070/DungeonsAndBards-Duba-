@@ -1,0 +1,3 @@
+C:/Users/twirr/personal projects/DnDNewApp/build/CMakeFiles/dndprogram.dir
+C:/Users/twirr/personal projects/DnDNewApp/build/CMakeFiles/edit_cache.dir
+C:/Users/twirr/personal projects/DnDNewApp/build/CMakeFiles/rebuild_cache.dir

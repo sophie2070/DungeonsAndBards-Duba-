@@ -1,0 +1,7 @@
+# ninja log v7
+17	774	8154332157087055	CMakeFiles/dndprogram.dir/Main.cpp.obj	9cff5cb216e0dd09
+775	1109	8154332164657606	dndprogram.exe	8e6af50c82853011
+26	569	8154332157177352	CMakeFiles/dndprogram.dir/Graphics/Renderer.cpp.obj	1b0ebc2c60de993
+25	607	8154337009949340	CMakeFiles/dndprogram.dir/Graphics/Renderer.cpp.obj	1b0ebc2c60de993
+17	816	8154337009873548	CMakeFiles/dndprogram.dir/Main.cpp.obj	9cff5cb216e0dd09
+816	1307	8154337017857628	dndprogram.exe	8e6af50c82853011
