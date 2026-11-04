@@ -69,6 +69,16 @@ build CMakeFiles\dndprogram.dir\Graphics\Renderer.cpp.obj: CXX_COMPILER__dndprog
   TARGET_PDB = dndprogram.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\dndprogram.dir
 
+build CMakeFiles\dndprogram.dir\Windows\MainWindow.cpp.obj: CXX_COMPILER__dndprogram_unscanned_Debug C$:\Users\twirr\personal$ projects\DnDNewApp\Windows\MainWindow.cpp || cmake_object_order_depends_target_dndprogram
+  CONFIG = Debug
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
+  INCLUDES = -external:I"C:\Users\twirr\personal projects\DnDNewApp\build\vcpkg_installed\x64-windows\include" -external:W0
+  OBJECT_DIR = CMakeFiles\dndprogram.dir
+  OBJECT_FILE_DIR = CMakeFiles\dndprogram.dir\Windows
+  TARGET_COMPILE_PDB = CMakeFiles\dndprogram.dir\
+  TARGET_PDB = dndprogram.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\dndprogram.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target dndprogram
@@ -77,7 +87,7 @@ build CMakeFiles\dndprogram.dir\Graphics\Renderer.cpp.obj: CXX_COMPILER__dndprog
 #############################################
 # Link the executable dndprogram.exe
 
-build dndprogram.exe: CXX_EXECUTABLE_LINKER__dndprogram_Debug CMakeFiles\dndprogram.dir\Main.cpp.obj CMakeFiles\dndprogram.dir\Graphics\Renderer.cpp.obj | vcpkg_installed\x64-windows\debug\lib\imguid.lib
+build dndprogram.exe: CXX_EXECUTABLE_LINKER__dndprogram_Debug CMakeFiles\dndprogram.dir\Main.cpp.obj CMakeFiles\dndprogram.dir\Graphics\Renderer.cpp.obj CMakeFiles\dndprogram.dir\Windows\MainWindow.cpp.obj | vcpkg_installed\x64-windows\debug\lib\imguid.lib
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows

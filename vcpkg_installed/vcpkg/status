@@ -22,25 +22,6 @@ Abi: ca60e8a1abf30121bcb592535c32e09699411125868d91292caa6d1e1fa48c7c
 Description: {fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
 Status: install ok installed
 
-Package: jack2
-Version: 1.9.22
-Depends: vcpkg-cmake, vcpkg-cmake-config
-Architecture: x64-windows
-Multi-Arch: same
-Abi: 51a08d831ad65920e8ecfa7ac371d30d98060ce25a62eb4399d386e779427887
-Description: Cross-platform API that enables device sharing and inter-application audio routing
-Status: purge ok not-installed
-
-Package: portaudio
-Version: 19.7
-Port-Version: 9
-Depends: vcpkg-cmake, vcpkg-cmake-config
-Architecture: x64-windows
-Multi-Arch: same
-Abi: 63ad026115bb68739e0b60ebbfe6748ec4e7a6ad94fc86af2a11e10e9c500dd9
-Description: PortAudio Portable Cross-platform Audio I/O API PortAudio is a free, cross-platform, open-source, audio I/O library.  It lets you write simple audio programs in 'C' or C++ that will compile and run on many platforms including Windows, Macintosh OS X, and Unix (OSS/ALSA). It is intended to promote the exchange of audio software between developers on different platforms. Many applications use PortAudio for Audio I/O.
-Status: install ok installed
-
 Package: imgui
 Version: 1.92.9
 Depends: vcpkg-cmake, vcpkg-cmake-config
@@ -62,5 +43,15 @@ Feature: win32-binding
 Architecture: x64-windows
 Multi-Arch: same
 Description: Make available Win32 binding
+Status: install ok installed
+
+Package: portaudio
+Version: 19.7
+Port-Version: 9
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 63ad026115bb68739e0b60ebbfe6748ec4e7a6ad94fc86af2a11e10e9c500dd9
+Description: PortAudio Portable Cross-platform Audio I/O API PortAudio is a free, cross-platform, open-source, audio I/O library.  It lets you write simple audio programs in 'C' or C++ that will compile and run on many platforms including Windows, Macintosh OS X, and Unix (OSS/ALSA). It is intended to promote the exchange of audio software between developers on different platforms. Many applications use PortAudio for Audio I/O.
 Status: install ok installed
 
