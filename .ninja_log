@@ -1,9 +1,0 @@
-# ninja log v7
-27	581	8155200660086932	CMakeFiles/dndprogram.dir/Graphics/Renderer.cpp.obj	1b0ebc2c60de993
-18	762	8155200659996108	CMakeFiles/dndprogram.dir/Main.cpp.obj	9cff5cb216e0dd09
-34	766	8155200660157425	CMakeFiles/dndprogram.dir/Windows/MainWindow.cpp.obj	105006aaf2990a15
-767	1104	8155200667478307	dndprogram.exe	4f58e8abef3fb34e
-28	588	8155203593583729	CMakeFiles/dndprogram.dir/Graphics/Renderer.cpp.obj	1b0ebc2c60de993
-36	777	8155203593660374	CMakeFiles/dndprogram.dir/Windows/MainWindow.cpp.obj	105006aaf2990a15
-20	782	8155203593493522	CMakeFiles/dndprogram.dir/Main.cpp.obj	9cff5cb216e0dd09
-782	1111	8155203601108289	dndprogram.exe	4f58e8abef3fb34e
